@@ -4,17 +4,15 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f6f7fb;
 }
-
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-
 
 @layer base {
   :root {
@@ -87,5 +85,3 @@ body {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
-
-  
