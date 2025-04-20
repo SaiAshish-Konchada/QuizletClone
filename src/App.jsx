@@ -893,9 +893,8 @@ function App() {
               </div>
             </div>
           </section>
-          <section className="h-[450px]">
-            <UnifiedStudyDashboard></UnifiedStudyDashboard>
-          </section>
+          <UnifiedStudyDashboard></UnifiedStudyDashboard>
+          <section></section>
         </main>
 
         <footer className="px-4 md:px-6 lg:px-8 py-12">
@@ -1049,49 +1048,6 @@ function App() {
               </div>
             </div>
           </div>
-
-          {/* Countries
-          <div className="h-[250px] ml-[35px] mt-12 pt-8 border-t border-gray-200">
-  <h3 className="font-bold mt-2 text-[14px] mb-4">Country</h3>
-  <div className="flex flex-wrap gap-x-2 gap-y-2">
-    {[
-      "United States",
-      "Canada",
-      "United Kingdom",
-      "Australia",
-      "New Zealand",
-      "Germany",
-      "France",
-      "Spain",
-      "Italy",
-      "Japan",
-      "South Korea",
-      "India",
-      "China",
-      "Mexico",
-      "Sweden",
-      "Netherlands",
-      "Switzerland",
-      "Brazil",
-      "Poland",
-      "Turkey",
-      "Ukraine",
-      "Taiwan",
-      "Vietnam",
-      "Indonesia",
-      "Philippines",
-      "Russia",
-    ].map((country) => (
-      <Link
-        key={country}
-        to="#"
-        className="text-[#282e3e] font-bold text-[12px] hover:text-[#423ed8] w-[calc(100%/13-4px)] mb-2"
-      >
-        {country}
-      </Link>
-    ))}
-  </div>
-</div> */}
         </footer>
       </div>
     </div>
